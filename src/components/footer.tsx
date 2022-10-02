@@ -1,14 +1,11 @@
-import {Box, Container, Text} from "@chakra-ui/react";
+import { Container, Text } from "@chakra-ui/react";
 
 const Footer = () => {
-    return(
-        <>
-        <Container>
-
-            <Text>Footer</Text>
-        </Container>
-        </>
-    )
-}
+  return (
+    <Container>
+      <Text align="center">Footer</Text>
+    </Container>
+  );
+};
 
 export default Footer;

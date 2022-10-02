@@ -1,11 +1,11 @@
-import {Box, Text} from "@chakra-ui/react";
+import { Box, Container, Text } from "@chakra-ui/react";
 
-const header = () => {
-    return(
-        <>
-            <Text>teste</Text>
-        </>
-    )
-}
+const Header = () => {
+  return (
+    <Container>
+      <Text align="center">teste</Text>
+    </Container>
+  );
+};
 
-export default header;
+export default Header;

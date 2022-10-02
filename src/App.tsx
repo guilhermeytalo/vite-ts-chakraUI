@@ -1,14 +1,15 @@
-import "./App.css";
-import Footer from "./components/footer";
+import { Heading } from "@chakra-ui/react";
 import Header from "./components/header";
-import { Box, Container, Text } from "@chakra-ui/react";
+import Footer from "./components/footer";
 
 const App = () => {
-  <Container>
-    <Text>teste</Text>
-      {/* <Header />
-      <Footer /> */}
-  </Container>;
+  return (
+    <div>
+      <Heading textAlign="center">teste</Heading>
+      <Header />
+      <Footer />
+    </div>
+  );
 };
 
 export default App;
