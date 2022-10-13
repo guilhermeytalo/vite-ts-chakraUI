@@ -1,11 +1,14 @@
-import { Box, Container, Text } from "@chakra-ui/react";
+import { Heading, Text} from "@chakra-ui/react";
+import theme from "../styles/theme";
 
 const Header = () => {
-  return (
-    <Container>
-      <Text align="center">teste</Text>
-    </Container>
-  );
+    return (
+        <Heading>
+            <Text align="center" color={theme.colors.primary}>banquee.</Text>
+            <Text align="center" color={theme.colors.primary}>banquee.</Text>
+            <Text align="center" color={theme.colors.primary}>banquee.</Text>
+        </Heading>
+    );
 };
 
 export default Header;
